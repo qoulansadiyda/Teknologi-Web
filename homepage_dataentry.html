@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Homepage Data Entry</title>
+</head>
+<body background="background_img.jpg">
+    <h1>&#9830; Homepage  Data Entry &#9830;</h1>
+    <pre><marquee behavior="alternate">Ayo isi data dirimu sekarang!</marquee></pre>
+    <form action="">
+        <ol>
+            <li>
+                <b><label for="name">Nama :</label></b>
+                <input type="text" id="name" name="name">
+            </li>
+            <li>
+                <b><label for="nrp">NRP  :</label></b>
+                <input type="text" id="nrp" name="nrp">
+            </li>
+            <li>
+                <b><label for="class">Kelas:</label></b>
+                <input type="text" id="class" name="class">
+            </li>
+            <li>
+                <b>Jenis Kelamin:</b>
+                <input type="radio" id="man" name="sex" value="Pria">
+                <label for="man">Pria</label>
+                <input type="radio" id="woman" name="sex" value="Wanita">
+                <label for="woman">Wanita</label>
+            </li>
+            <li>
+                <b><label for="religion">Agama:</b></label>
+                <select name="religion" id="religion">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                  </select>
+            </li>
+            <li>
+                <b><label for="bod">Tempat/Tanggal Lahir:</label></b>
+                <input type="text" id="place" name="place"> / <input type="text" id="bod" name="bod">
+            </li>
+            <li>
+                <b><label for="address">Alamat:</label></b>
+                <dd><textarea name="address" id="address" cols="30" rows="7"></textarea></dd>
+            </li>
+            <li>
+                <b><label for="education">Riwayat Pendidikan:</label></b>
+                <ol type="a">
+                    <li>
+                        <label for="sd">SD:</label>
+                        <input type="text" name="sd" id="sd">
+                    </li>
+                    <li>
+                        <label for="smp">SMP:</label>
+                        <input type="text" name="smp" id="smp">
+                    </li>
+                    <li>
+                        <label for="sma">SMA:</label>
+                        <input type="text" name="sma" id="sma">
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <b><label for="email">Email:</label></b>
+                <input type="text" name="email" id="email">
+            </li>
+            <li>
+                <b><label for="homepage">Homepage:</label></b>
+                <input type="text" name="homepage" id="homepage">
+            </li>
+            <li>
+                <b><label for="hobby">Hobby:</label></b>
+                <dd><textarea name="hobby" id="hobby" cols="30" rows="7"></textarea></dd>
+            </li>
+            <li>
+                <b><label for="interest">Interest:</label></b>
+                    <input type="checkbox" id="int1" name="int1" value="Komputer">
+                    <label for="interest">Komputer</label>
+                    <input type="checkbox" id="int2" name="int2" value="Sport">
+                    <label for="interest">Sport</label>
+                    <input type="checkbox" id="int3" name="int3" value="Traveling">
+                    <label for="interest">Traveling</label>
+                    <input type="checkbox" id="int4" name="int4" value="Writing">
+                    <label for="interest">Writing</label>
+                    <input type="checkbox" id="int5" name="int5" value="Reading">
+                    <label for="interest">Reading</label>
+            </li>
+        </ol>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
